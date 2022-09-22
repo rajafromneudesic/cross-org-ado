@@ -1,0 +1,4 @@
+steps:
+  - checkout: AzureRepo
+  - script: |
+      ls -lrt

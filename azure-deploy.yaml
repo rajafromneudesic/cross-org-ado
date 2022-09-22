@@ -11,7 +11,4 @@ resources:
 jobs:
   - job: testcheckout
     steps:
-      - checkout: AzureRepo
-      - script: |
-          ls -lrt
-        
+      - template: checkout.yaml
