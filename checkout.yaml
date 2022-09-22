@@ -1,4 +1,5 @@
 steps:
   - checkout: AzureRepo
+  - checkout: self
   - script: |
       ls -lrt
