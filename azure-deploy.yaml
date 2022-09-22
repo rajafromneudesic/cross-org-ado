@@ -12,4 +12,6 @@ jobs:
   - job: testcheckout
     steps:
       - checkout: AzureRepo
+      - script: |
+          ls -lrt
         
