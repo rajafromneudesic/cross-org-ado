@@ -2,4 +2,10 @@ steps:
   - checkout: AzureRepo
   - checkout: self
   - script: |
+      cd project1
       ls -lrt
+    displayName: list ado files
+  - script: |
+      cd cross-org-ado
+      ls -lrt
+    displayName: list github files
