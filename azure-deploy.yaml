@@ -6,6 +6,7 @@ resources:
       type: git
       endpoint: ado-token
       name: project1/project1
+      ref: main
 
 jobs:
   - job: testcheckout
