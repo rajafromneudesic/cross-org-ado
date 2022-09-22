@@ -8,7 +8,7 @@ resources:
       name: project1/project1
 
 jobs:
-  - job: test-checkout
+  - job: testcheckout
     steps:
       - checkout: AzureRepo
         
