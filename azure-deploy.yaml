@@ -1,0 +1,14 @@
+pool:
+  name: Azure Pipelines
+resources:
+  repositories:
+    - repository: AzureRepo
+      type: git
+      endpoint: ado-token
+      name: project1/project1
+
+jobs:
+  - job: test-checkout
+    steps:
+      - checkout: AzureRepo
+        
